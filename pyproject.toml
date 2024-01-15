@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "terry-fast-api"
+version = "0.1.0"
+description = "Terry's Fast API"
+authors = ["Terry <jty0234@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+uvicorn = "^0.25.0"
+black = "^23.12.1"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
